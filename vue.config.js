@@ -1,6 +1,7 @@
 module.exports = {
     // 路径
-    publicPath: process.env.NODE_ENV === 'production' ? '/web/' : '/',
+    // publicPath: process.env.NODE_ENV === 'production' ? '/web/' : '/',
+    publicPath: process.env.NODE_ENV === 'production' ? '/wsq_dev/web/' : '/',
     // 打包
     outputDir: 'web',
     // 配置 跨域 代理请求
